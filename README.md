@@ -1,5 +1,7 @@
 # Ranked ML
 
+<img src="https://i.ibb.co/N1ZD9q5/Projeto-de-Data-Science.png" alt="Projeto-de-Data-Science" width=700>
+
 Repositório destinado à criação de um modelo de Machine Learning com os dados da GC. A finalidade deste projeto é levar o conhecimento de Data Science e Analytics para o maior número de pessoas possível.
 
 As lives são realizadas na Twitch no canal [Téo Me Why](https://www.twitch.tv/teomewhy) às Terças e Quintas - 9:00AM.
