@@ -19,7 +19,7 @@ As lives são realizadas na Twitch no canal [Téo Me Why](https://www.twitch.tv/
 
 Em primeiro lugar, a comunidade. Queremos alcançar o maior número de vidas utilizando o ensino. Dentro de minhas capacidades, posso ajudar com estatística, dados e uma pitada de programação. Então vamos utilizar os dados da Gamers Club para atacar um problema de negócio em um projeto de Data Science de começo ao fim!
 
-Acreditamos que exemplos são a maneira mais didática para cativar e insentivar os estudantes. Então se prepare pois aqui a parada é bem mão na massa!
+Acreditamos que exemplos são a maneira mais didática para cativar e incentivar os estudantes. Então se prepare pois aqui a parada é bem mão na massa!
 
 Vale ressaltar que o mercado na área de Tecnlogia e Dados está extremamente aquecido! Muitas vagas são abertas diariamente no Linkedin e outras plataformas de recrutamento. O pessoal de dados é cada vez mais demandado.
 
@@ -48,7 +48,7 @@ Você pode conhecer mais sobre o professor no [LinkedIn](https://www.linkedin.co
 
 ## Sobre os dados
 
-Para este curso utilizaremos dados de partidas que ocorreram nos servidores da Gamres Club. São aprtidas referentes à 2.500 jogadores, havendo mais de 30 estatísticas de seus partidas. Tais como Abates, Assistências, Mortes, Flash Assist, Head Shot, etc.
+Para este curso utilizaremos dados de partidas que ocorreram nos servidores da Gamers Club. São partidas referentes à 2.500 jogadores, havendo mais de 30 estatísticas de seus partidas. Tais como Abates, Assistências, Mortes, Flash Assist, Head Shot, etc.
 
 Alem disso, temos informações de medalhas destes players, como:
 - Assinatura Premium, Plus
