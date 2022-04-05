@@ -5,6 +5,7 @@ Repositório destinado à criação de um modelo de Machine Learning com os dado
 As lives são realizadas na Twitch no canal [Téo Me Why](https://www.twitch.tv/teomewhy) às Terças e Quintas - 9:00AM.
 
 ## Sumário
+- [Motivação](#motivação)
 - [Sobre o Curso](#sobre-o-curso)
 - [Sobre o Professor](#sobre-o-professor)
 - [Sobre os Dados](#sobre-os-dados)
@@ -12,16 +13,24 @@ As lives são realizadas na Twitch no canal [Téo Me Why](https://www.twitch.tv/
 - [Etapas](#etapas)
 - [FAQ](#faq)
 
+## Motivação
+
+Em primeiro lugar, a comunidade. Queremos alcançar o maior número de vidas utilizando o ensino. Dentro de minhas capacidades, posso ajudar com estatística, dados e uma pitada de programação. Então vamos utilizar os dados da Gamers Club para atacar um problema de negócio em um projeto de Data Science de começo ao fim!
+
+Acreditamos que exemplos são a maneira mais didática para cativar e insentivar os estudantes. Então se prepare pois aqui a parada é bem mão na massa!
+
+Vale ressaltar que o mercado na área de Tecnlogia e Dados está extremamente aquecido! Muitas vagas são abertas diariamente no Linkedin e outras plataformas de recrutamento. O pessoal de dados é cada vez mais demandado.
+
 ## Sobre o curso
 
 Algumas oportunidades que teremos de soluções para a GC:
 
-1. Predição de jogadores que jogarão na próxima/mês
+1. Predição de jogadores que jogarão na próxima semana/mês
 2. Predição de churn
 3. Predição de assinatura
 4. Predição churn de assinatura
 
-Mas antes de debruçar no algoritmo, precisamos preparar os dados. Assim, passaremos pela criação de um book de variáveis (feature store) e posteriormente criar a nossa variável resposta (target).
+Mas antes de debruçar no algoritmo, precisamos preparar os dados. Assim, passaremos pela criação de um book de variáveis (feature store) e posteriormente criar a nossa variável resposta (target), i.e. aquilo que queremos prever.
 
 Pretendemos realizar este curso para apresentar como um algoritmo por ajudar a resolver problemas reais de negócio. Bem como, passar pelas dificuldades e preparação de dados para desenvolver uma solução end-to-end.
 
@@ -29,9 +38,9 @@ Pretendemos realizar este curso para apresentar como um algoritmo por ajudar a r
 
 Téo é Bacharel em Estatística e tem Pós Graduação em Data Science & Big Data.É bastante curioso em aprender novas tecnologias e aprimorar seus projetos voltados à Análise de Dados e Modelagem Preditiva.
 
-Tem atuado desde 2014 em grandes empresas, sempre utilizando técnicas Estatísticas e Computacionais para empregar Aprendizado de Máquina em diferentes cenários. Com isso, entende que a principal etapa no ciclo analítico consiste em consultas de dados em bancos relacionais. Além de realizar suas lives na Twitch desde 08.2019.
+Tem atuado desde 2014 em grandes empresas, sempre utilizando técnicas Estatísticas e Computacionais para empregar Aprendizado de Máquina em diferentes cenários. Com isso, entende que a principal etapa no ciclo analítico consiste em consultas de dados em em diferentes fontes. Além de realizar suas lives na Twitch desde 08.2019.
 
-Hoje, como Head of Data na Gamers Club, gostaria de contribuir ainda mais para a comunidade trazendo dados reais e aplicações com SQL.
+Hoje, como Head of Data na Gamers Club, gostaria de contribuir ainda mais para a comunidade trazendo dados reais e aplicações com SQL, Python e Machine Learning.
 
 Você pode conhecer mais sobre o professor no [LinkedIn](https://www.linkedin.com/in/teocalvo/).
 
@@ -51,9 +60,19 @@ Abaixo temos o schema (relacionamentos) dos nossos dados.
 
 ## Setup e requisitos
 
-### 1. Visual Studio Code
+### 1. Python / Anaconda
 
-Para acompanhar este curso você precisará instalar o [Visual Studio Code](https://code.visualstudio.com/). Basta realizar o download na [página oficial](https://code.visualstudio.com/) da ferramenta e seguir os passos de instalação.
+Você pode fazer o download do Python no site oficial: [www.python.org/](https://www.python.org/)
+
+Como utilizaremos bibliotecas voltadas à análise de dados e modelagem, sera necessário realizar as instalações destas libs. Assim, por amor a simplicidade, eu recomendo fazer uso do [Anaconda](https://www.anaconda.com/).
+
+A instalação do Anaconda é bem simples, só deve ficar atento em adicionar seu endereço à variável `PATH`.
+
+### 2. Visual Studio Code
+
+Esta ferramenta é uma interface de desenvolvimento. Não é necessária pois e apenas mais um sabor dentre tantos. Porém, como gosto bastante bastante, o curso será conduzido a partir da mesma.
+
+Para instalar o [Visual Studio Code](https://code.visualstudio.com/) basta realizar o download na [página oficial](https://code.visualstudio.com/) da ferramenta e seguir os passos de instalação.
 
 ### 2. Dados
 
@@ -63,11 +82,21 @@ Como vamos utilizar os dados da GC, você precisa baixar estes dados de nossa pa
 
 Temos como objetivo  ajudar pessoas que estão descobrindo o mundo de dados agora. Como é um curso de Data Science end-to-end, é recomendado que se saiba os conceitos de SQL e familiaridade com Python. Para facilitar o acompanhamento, preparamos um curso de [SQL aqui](https://github.com/TeoCalvo/sql_gc).
 
+Faremos uso das seguintes bibliotecas:
+- SQLalchemy
+- Pandas
+- Numpy
+- Scikit-learn
+- Feature-engine
+- XGBoost
+- Scikit-plot
+- Yellowbrick
+
 ## Etapas
 
 |Descrição|VOD|
 |---|:---:|
-| 1. Introdução **Machine Learning** | |
+| 1. Introdução **Machine Learning** e Definição do problema | |
 | 2. Criação do book de Variáveis | |
 | 3. Criação da ABT (*Analytical Base Table*) | |
 | 4. SEMMA e primeiros Algoritmos | |
