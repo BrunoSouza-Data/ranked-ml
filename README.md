@@ -10,7 +10,7 @@ As lives são realizadas na Twitch no canal [Téo Me Why](https://www.twitch.tv/
 - [Sobre o Professor](#sobre-o-professor)
 - [Sobre os Dados](#sobre-os-dados)
 - [Setup e requisitos](#setup-e-requisitos)
-- [Etapas](#etapas)
+- [Calendário](#calendário)
 - [FAQ](#faq)
 
 ## Motivação
@@ -92,16 +92,17 @@ Faremos uso das seguintes bibliotecas:
 - Scikit-plot
 - Yellowbrick
 
-## Etapas
+## Calendário
 
-|Descrição|VOD|
-|---|:---:|
-| 1. Introdução **Machine Learning** e Definição do problema | |
-| 2. Criação do book de Variáveis | |
-| 3. Criação da ABT (*Analytical Base Table*) | |
-| 4. SEMMA e primeiros Algoritmos | |
-| 5. Tunning do melhor modelo | |
-| 6. Deploy | |
+|Descrição|Data|VOD|
+|---|:---:|:---:|
+| 1. Introdução **Machine Learning** e Definição do problema | 07.04.22 | |
+| 2. Criação do book de Variáveis - Parte I | 12.04.22 | |
+| 3. Criação do book de Variáveis - Parte II | 14.04.22 | |
+| 4. Criação da ABT (*Analytical Base Table*) | 19.04.22 | |
+| 5. SEMMA e primeiro pipeline | 21.04.22 | |
+| 6. Tunning do melhor modelo | 26.04.22 | |
+| 7. Deploy | 28.04.22 | |
 
 ## FAQ
 
